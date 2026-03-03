@@ -1,23 +1,21 @@
-# 🌐 Yakami Sentinel VR - Monitoramento Ambiental Imersivo
-**Projeto Integrador: Residência TIC 29 | Trilha Web 3.0**
+# 🥽 Yakami Sentinel VR - Visualização Imersiva de Dados Ambientais
 
-## 👤 Desenvolvedor Responsável
-**Walterson Filho** (CTO - Yakami Tech)
+Este repositório contém a camada de visualização em Realidade Virtual (VR) e Metaverso da **YAKAMI TECH**. O objetivo é transformar dados técnicos de sensores IoT em experiências imersivas para monitoramento da Bacia Amazônica.
 
-## 🎯 Contexto no Metaverso (Indústria & Monitoramento)
-Este ambiente virtual simula o **Centro de Controle Sentinel**, parte estratégica da startup **YAKAMI TECH**. O objetivo é permitir que operadores monitorem dados de balneabilidade da Bacia Amazônica em um ambiente VR, facilitando a tomada de decisão através da visualização de dados de sensores IoT de forma imersiva e descentralizada.
+## 🚀 Integração Web3 & IoT
+Diferente de ambientes VR comuns, o **Yakami Sentinel VR** é alimentado por dados reais:
+1. **IoT (Sentinel):** Sensores em campo coletam dados de qualidade da água e ar.
+2. **Blockchain:** Os dados são validados via Smart Contract na rede Sepolia (ver repositório [yakami-tech/smart-contracts](https://github.com/yakami-tech/smart-contracts)).
+3. **VR (Digital Twin):** Esta interface lê os dados *on-chain* e renderiza o estado ambiental em um gêmeo digital 3D.
 
-## 🛠️ Especificações Técnicas
-- **Plataforma:** Unity 6 LTS.
-- **SDK:** Meta XR SDK integrado para suporte a dispositivos Meta Quest.
-- **Build:** Configurado para Android / XR Plugin Management.
-- **Interação:** Sistema de alerta em C# (`SensorAlert.cs`) que valida a integridade de dados simulando uma rede DePIN.
+## 🛠️ Tecnologias Utilizadas
+- **A-Frame / Three.js:** Para renderização de cenas VR baseadas em navegador.
+- **Ethers.js:** Para conectar o ambiente virtual aos Smart Contracts.
+- **Web3 Wallet:** Acesso controlado via Token Gating.
 
-## 📁 Estrutura do Repositório (Organização Profissional)
-Seguindo os requisitos da Prof. Ana Beatriz, este repositório contém apenas as pastas essenciais para o funcionamento do projeto, utilizando um `.gitignore` otimizado:
-- `Assets/`: Cenas, scripts e modelos 3D.
-- `Packages/`: Dependências e SDKs.
-- `ProjectSettings/`: Configurações globais do projeto.
+## 📂 Como Contribuir
+O desenvolvimento deste módulo faz parte da **Residência em TIC 29**. 
+- Membros: Erick Mattos, Helen Araújo e Walter Filho.
 
 ---
-*Este projeto faz parte do ecossistema de soluções da Yakami Tech para a preservação da Amazônia.*
+© 2026 YAKAMI TECH - Inovação para a Amazônia.
