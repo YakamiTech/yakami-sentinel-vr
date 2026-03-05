@@ -15,7 +15,7 @@ Diferente de ambientes VR comuns, o **Yakami Sentinel VR** é alimentado por dad
 
 ## 📂 Como Contribuir
 O desenvolvimento deste módulo faz parte da **Residência em TIC 29**. 
-- Membros: Erick Mattos, Helen Araújo e Walter Filho.
+- Aluno: Walter Filho.
 
 ---
 © 2026 YAKAMI TECH - Inovação para a Amazônia.
